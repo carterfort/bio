@@ -2,23 +2,30 @@ body {
   margin: 0px;
   background-color: black;
   font-family: Helvetica Neue, Helvetica;
-  color: white; }
+  color: white; 
+  padding-top: 75px;
+  padding-bottom: 75px; }
   body a {
     color: orange;
     text-decoration: none; }
     body a:hover {
       color: yellow; }
   body .content {
-    height: 1398px;
-    width: 1600px;
-    margin: 0 0 0 auto;
-    padding-left: 50px;}
+    padding-left: 50px;
+    padding-right: 50px;}
     body .content h1 {
       font-weight: normal;
-      padding: 25px 0 0;
+      padding: 10px 10px 10px 10px;
       margin: 0px;
-      font-size: 130px; }
+      font-size: 90px;}
     body .content p {
-      font-size: 17px;
-      margin: 5px 0 10px 10px;
-      padding: 0px; }
+      font-size: 18px;}
+
+  div .well{
+    background-color: #20202d;
+    padding: 10px 10px 0px 10px;
+  }
+  div .well-small{
+    background-color: #20202d;
+    padding: 10px 10px 0px 10px;
+  }

@@ -1,29 +1,66 @@
 <!DOCTYPE html>
-<!--!
-<html>
+
+<html ng-app>
   <head>
 	<meta charset="utf-8">
 	<title>Dave Fort - Home Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 	<link href='style.css' media='screen' rel='stylesheet' type='text/css' />
 </head>
 <body>
-<div class='content'>
-      <h1>Dave Fort</h1>
-      <p><a href = "http://www.twitter.com" target="_blank">'04: build trebuchet.</a></p>
-      <p>'06: take up refuge in New Jersey.</p>
-      <p>'10: Washington DC.</p>
-      <p>Golly thanks mister</p>
-    </div>
 
+<nav class="navbar navbar-masthead navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-masthead-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse bs-example-masthead-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Dave Fort <span class="sr-only">(current)</span></a></li>
+        <!--!<li><a href="#">Blog</a></li>-->
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+
+<div class='container-fluid'>
+	<div class='content'>
+		<img src="assets/imgs/jefferson.jpg" class="img-responsive"> <p align="center">DF in DC, 2010 - 2012 </p>
+	</div>
+	<div class='content' id='Bio'>
+      <h1>Bio</h1>
+	      <div class='well well-small' ><p><b>2004</b>: built a <a href = "https://youtu.be/erU7iICGTcw" target="_blank">trebuchet</a> in high school for the heck of it (Sewanee, TN).</p></div>
+	       <div class='well well-small' ><p><b>2006</b>: wore a laurel wreath to <a href = "assets/docs/SU06_Commencement.pdf" target="_blank">commencement</a> (Exeter, NH).</p></div>
+	       <div class='well well-small'><p><b>2008</b>: quarterbacked the submission of an array of innovation research grants to DARPA and the Army, with more than 50% culminating in <a href = "http://www.sbir.gov/sbirsearch/detail/148849" target="_blank">awards</a> (Philadelphia, PA).</p></div>
+	      <div class='well well-small'><p><b>2010</b>: authored a <a href = "assets/docs/DFort_Thesis.pdf" target="_blank">thesis</a> on the interplay and inevitable tension between institutional knowledge networks with diametric priorities, focusing on relations between academia and the intelligence community (Princeton, NJ). </p></div>
+	      <div class='well well-small'><p><b>2011</b>: identified potential vulnerabilities in the national security budget process (ask me about it some time), and tried to convince the higher ups to fix them (Washington, DC). </p></div>
+	      <div class='well well-small'><p><b>2012</b>: first business intern at <a href="http://www.infinio.com/"> Infinio</a>, commercializing virtual machine acceleration <a href = "http://www.nycmedialab.org/silver-lining-in-cloud-computing-research/" target="_blank">research</a> from Columbia CS luminaries</a> (Cambridge, MA).</p></div>
+	      <div class='well well-small'><p><b>2013</b>: first MBA intern at <a href="http://www.luminoso.com/"> Luminoso</a>, commercializing <a href = "assets/docs/Luminoso-IUI.pdf" target="_blank">latent semantic analysis</a> and <a href = "assets/docs/ConceptNet.pdf" target="_blank">contextualization research</a> spun out of MIT Media Lab (Cambridge, MA).</p></div>
+	      <div class='well well-small'><p><b>2014</b>: published a handful of <a href = "http://www.marketresearch.com/Charles-River-Research-LLC-v3969/" target="_blank">research reports</a> on public sector investments and national security policy trends via my niche consultancy, helping keep the lights on through grad school (Cambridge, MA).</p></div>
+	      <div class='well well-small'><p><b>May 2015</b>: in partnership with MasterCard, launched a major SaaS location analytics <a href = "http://www.mastercardadvisors.com/storybehindtherent/" target="_blank">platform</a> at LevelTrigger, a startup I co-founded in Feb 2014 with two PhDs (Cambridge, MA).</p></div>
+	      <div class='well well-small'><p><b>June 20, 2015</b>: happiest <a href = "https://vimeo.com/136774283" >weekend</a> of all time (Moultonborough, NH).</p></div>
+      <br>
+
+      <h2>For corroboration and more colorful detail, reference my <a href = "https://www.linkedin.com/in/davefort" >LinkedIn </a> page.</h2>
+<!--!
+      <h1>Contact</h1>
+      <p>Want to get in touch? Just enter the following clue into my Da Vinci Code-inspired Atbash decipher...*</p>
+      <input type="text" ng-model="userInput" placeholder="Enter the clue here" style="color:black">
+      <h2> My email is {{userOutput}}</h2>
+      <p>*I honestly couldn't figure out a better use for Angular...</p>
+-->
+    </div>
+</div>
 
   </body>
-</html>
-
--->
-<html>
-<body>
-Under construction
-</body>
 </html>
