@@ -10,6 +10,9 @@ body {
     text-decoration: none; }
     body a:hover {
       color: yellow; }
+    body a:visited{
+      color:orange;
+    }
   body .content {
     padding-left: 50px;
     padding-right: 50px;}
