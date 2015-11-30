@@ -1,10 +1,29 @@
 body {
   margin: 0px;
-  background-color: black;
   font-family: Helvetica Neue, Helvetica;
-  color: white; 
   padding-top: 75px;
-  padding-bottom: 75px; }
+  padding-bottom: 75px; 
+  background: #efefef;
+}
+
+#header-img {
+  position: relative;
+}
+#header-img img {
+  width: 100%;
+}
+
+#header-img p {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  font-size: 160%;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0px 1px 0px rgba(0,0,0,0.8);
+  background: rgba(255,255,255,0.2);
+  padding: 0px 4%;
+}
   body a {
     color: orange;
     text-decoration: none; }
@@ -25,10 +44,19 @@ body {
       font-size: 18px;}
 
   div .well{
-    background-color: #20202d;
+    background-color: #fff;
     padding: 10px 10px 0px 10px;
   }
   div .well-small{
-    background-color: #20202d;
+    background-color: #fff;
     padding: 10px 10px 0px 10px;
+  }
+
+  div .well p {
+    border-left: 5px solid #dfdfdf;
+    padding-left: 5px;
+  }
+
+  .navbar-toggle{
+    display: none;
   }
